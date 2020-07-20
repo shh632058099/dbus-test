@@ -171,7 +171,7 @@ int main(int argc, char* argv[])
         }
         dbus_message_unref (reply);	
 
-        printf("buffer_size:%d Kb\n", buffer_size_raw);
+        //printf("buffer_size:%d Kb\n", buffer_size_raw);
         usleep(100*1000);
         delete []array;
     }
